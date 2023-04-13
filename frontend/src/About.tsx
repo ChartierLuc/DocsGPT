@@ -20,7 +20,7 @@ export default function About() {
             {' '}
             open-source{' '}
           </a>
-          chatbot. Powered by GPT-3, Faiss and LangChain.
+          chatbot. Powered by GPT-4, Faiss and LangChain.
         </p>
 
         <div>
