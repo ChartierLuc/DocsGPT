@@ -82,7 +82,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return render_template("index.html", api_key_set=api_key_set, llm_choice=llm_choice,
+    return render_template("index.html", api_key_set=api_key_set, llm_choice="openai_chat",
                            embeddings_choice=embeddings_choice)
 
 
